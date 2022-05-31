@@ -23,7 +23,7 @@
 @media (max-width: 768px) {
   
 .header { 
-    text-align: center;
+  text-align: center;
   }
   
 }
@@ -126,7 +126,11 @@
   align-items: center;
 }
 
-.list-item > * {
+.list-item__input-checkbox,
+.list-item__label,
+.list-item__input-text,
+.list-item__button-edit,
+.list-item__button-delete {
   vertical-align: middle;
 }
 
